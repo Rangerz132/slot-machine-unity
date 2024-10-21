@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReelSymbol : MonoBehaviour
 {
-    public ReelSymbolScriptableObject ReelSymbolScriptableObjec { get; private set; }
+    [field:SerializeField] public ReelSymbolScriptableObject ReelSymbolData{ get; private set; }
 
     void Start()
     {

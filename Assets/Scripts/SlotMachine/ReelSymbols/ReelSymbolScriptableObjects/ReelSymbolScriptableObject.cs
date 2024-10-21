@@ -7,4 +7,5 @@ public class ReelSymbolScriptableObject : ScriptableObject
     public string id;
     public Sprite sprite;
     public int value;
+    public bool wild;
 }
